@@ -21,7 +21,7 @@ with open('processed_data/crowd_data.csv', 'r') as file:
 		restricted_entry.append(bool(int(row[3])))
 		abnormal_activity.append(bool(int(row[4])))
 
-with open('processed_data/video_data.json', 'r') as file:
+with open('video_metadata.json', 'r') as file:
 	data = json.load(file)
 	data_record_frame = data["DATA_RECORD_FRAME"]
 	is_cam = data["IS_CAM"]

@@ -21,7 +21,7 @@ with open('processed_data/movement_data.csv', 'r') as file:
                 temp.append([int(data[i]), int(data[i+1])])
             tracks.append(temp)
 
-with open('processed_data/video_data.json', 'r') as file:
+with open('video_metadata.json', 'r') as file:
 	data = json.load(file)
 	vid_fps = data["VID_FPS"]
 	data_record_frame = data["DATA_RECORD_FRAME"]

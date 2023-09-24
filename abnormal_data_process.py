@@ -8,7 +8,7 @@ import pandas as pd
 from math import ceil
 from scipy.spatial.distance import euclidean
 
-with open('processed_data/video_data.json', 'r') as file:
+with open('video_metadata.json', 'r') as file:
     data = json.load(file)
     data_record_frame = data["DATA_RECORD_FRAME"]
     frame_size = data["PROCESSED_FRAME_SIZE"]

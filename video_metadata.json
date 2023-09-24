@@ -1,0 +1,10 @@
+{
+    "FPS": 1000,
+    "FrameCount": -9223372036854775808,
+    "FrameWidth": 1366,
+    "FrameHeight": 768,
+    "DATA_RECORD_FRAME": 1000,
+    "PROCESSED_FRAME_SIZE": 640,
+    "VID_FPS": 30,
+    "TRACK_MAX_AGE": 3    
+}
